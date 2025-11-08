@@ -1,0 +1,1 @@
+Secure OpenVPN server with automated installation, SSL/TLS certificate management, and network optimizations. Includes client management tools and performance improvements (compression, buffer optimization, UDP protocol).

@@ -1,0 +1,21 @@
+# Easy-RSA variables for certificate generation
+# Customize these values according to your organization
+
+set_var EASYRSA_REQ_COUNTRY    "US"
+set_var EASYRSA_REQ_PROVINCE   "CA"
+set_var EASYRSA_REQ_CITY       "San Francisco"
+set_var EASYRSA_REQ_ORG        "OpenVPN-CA"
+set_var EASYRSA_REQ_EMAIL      "admin@vpn.local"
+set_var EASYRSA_REQ_OU         "IT"
+
+# Encryption parameters
+set_var EASYRSA_KEY_SIZE       2048
+set_var EASYRSA_ALGO           rsa
+set_var EASYRSA_CURVE          secp384r1
+set_var EASYRSA_DIGEST         "sha256"
+
+# Certificate validity period (in days)
+set_var EASYRSA_CA_EXPIRE      3650
+set_var EASYRSA_CERT_EXPIRE    365
+set_var EASYRSA_CRL_DAYS       180
+

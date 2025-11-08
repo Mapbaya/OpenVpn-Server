@@ -1,0 +1,23 @@
+# Temporary files
+*.tmp
+*.log
+*.swp
+*~
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Don't commit certificates (they're generated on the server)
+*.crt
+*.key
+*.pem
+!config/*.conf
+
+# Easy-RSA PKI (generated during installation)
+easy-rsa/pki/
+/easy-rsa/pki/
+
+# Client configs (contain sensitive data)
+clients/
+/clients/
