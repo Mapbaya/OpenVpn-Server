@@ -1,5 +1,8 @@
 # OpenVPN Server
 
+> **FR:** Projet personnel — serveur OpenVPN sécurisé avec scripts d'installation, certificats SSL/TLS et optimisations réseau.  
+> **EN:** Personal project — secure OpenVPN server with automated setup, SSL/TLS certificates, and network optimizations.
+
 Personal project: Secure OpenVPN server with SSL/TLS certificate management, client configuration, and troubleshooting tools.
 
 ## Installation
